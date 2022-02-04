@@ -1,0 +1,40 @@
+body{
+    background: rgb(71,9,49);
+background: linear-gradient(90deg, rgba(71,9,49,1) 0%, rgba(61,19,103,1) 66%, rgba(27,5,61,1) 100%);
+background-attachment: fixed;
+}
+
+.paras{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.aboutzbc{
+
+    align-items: flex-end;
+    text-align: end;
+    width: 60%;
+}
+
+.aboutspacedivision{
+
+    align-items: flex-end;
+    text-align: start;
+    width: 60%;
+}
+.para{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 5%;
+}
+.title{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+.content{
+    color: white;
+    font-size: 1.5rem;
+}

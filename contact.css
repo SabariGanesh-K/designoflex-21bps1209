@@ -1,0 +1,48 @@
+body{
+    margin:0
+}
+.title{
+    font-size: 3rem;
+    margin: 3%;
+    color: #330033
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 5%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    align-items: stretch;
+    justify-content: center;
+}
+.input{
+    align-items: stretch;
+    font-size: 1rem;
+    margin: -2%;
+    width: 200%;
+
+}
+.message{
+    align-items: stretch;
+    font-size: 1rem;
+    margin: -2%;
+    width: 200%;
+    height: 150%;
+    
+}
+.launch{
+    background: dodgerblue;
+    color: floralwhite;
+    border-width: 0;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+    align-items: flex-end;
+}

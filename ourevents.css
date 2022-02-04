@@ -1,0 +1,83 @@
+.wavyyy {
+    background: rgb(71,9,49);
+    background: linear-gradient(90deg, rgba(71,9,49,1) 0%, rgba(61,19,103,1) 66%, rgba(27,5,61,1) 100%);
+    width: 100%;
+    height: 30%;
+   position: relative;
+  }
+  body{
+    margin: 0;
+}
+.title{
+    text-align: center;
+    font-size: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-underline-offset: 20px;
+    text-decoration-line: underline;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 2%;
+    text-decoration-thickness: 3%;
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.custom-shape-divider-bottom-1643994670 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643994670 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 64px;
+}
+
+.custom-shape-divider-bottom-1643994670 .shape-fill {
+  fill: #FFFFFF;
+}
+.cardscontainer{
+  display: flex;
+  flex-direction: row;
+margin: 5%;
+  align-items: center;
+  justify-content: space-around;
+}
+.Cards{
+  background: rgb(71,9,49);
+  background: linear-gradient(90deg, rgba(71,9,49,1) 0%, rgba(61,19,103,1) 66%, rgba(27,5,61,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding:1%
+}
+.cardimg{
+  border-radius: 20px;
+  margin: 4%;
+}
+.viewmorebutton{
+  background: white;
+  color: black;
+  border-width: 0;
+  font-size: 1.5rem;
+  padding:0.5rem;
+  margin: 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

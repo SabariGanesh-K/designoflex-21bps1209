@@ -1,0 +1,72 @@
+.wavyyy {
+  background:#66004d;
+  width: 100%;
+  height: 75%;
+  
+}
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 3%;
+   
+}
+.homebutton{
+    color: floralwhite;
+}
+
+.rocket{
+    width: 100%;
+}
+
+.homebutton{
+    background-color: rgba(0,0,0,0);
+}
+.zbcintro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.introwords{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introline1{
+    font-size: 5rem;
+    color: white;
+}
+.introline2{
+    font-size: 4rem;
+    color: white;
+}
+.introline3{
+    font-size: 3rem;
+    color: white;
+}
+.getstarted{
+    background:  #4d4dff;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    color: lightcyan;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 2%;
+    border-width: 0;
+    box-shadow: black;
+}
+

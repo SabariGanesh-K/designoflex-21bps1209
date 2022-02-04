@@ -1,0 +1,130 @@
+.wavyyy {
+    background: rgb(71,9,49);
+    background: linear-gradient(90deg, rgba(71,9,49,1) 0%, rgba(61,19,103,1) 66%, rgba(27,5,61,1) 100%);
+    width: 100%;
+    height: 39%;
+   position: relative;
+  }
+  body{
+      margin: 0;
+  }
+  
+  .header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+  }
+
+  .title{
+    text-align: center;
+    font-size: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-underline-offset: 20px;
+    text-decoration-line: underline;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 2%;
+    text-decoration-thickness: 3%;
+  }
+  .para{
+      text-align: center;
+      width: 100%;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+    
+  }
+  .text{
+      margin-right: 10%;
+      margin-left: 10%;
+      color: white;
+      font-size: 1.5rem;
+  }
+  .custom-shape-divider-bottom-1643994670 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643994670 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.custom-shape-divider-bottom-1643994670 .shape-fill {
+    fill: #FFFFFF;
+}
+.moonlaunch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coll{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.row{
+    flex-direction: row;
+    margin: -3.5%;
+}
+.title2{
+    font-size: 3rem;
+    color: #330033;
+}
+.ourorbiters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-items: center;
+}
+.otherprojects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #555;
+    cursor: pointer;
+	border-bottom: 25px solid transparent;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+    cursor: pointer;
+	border-bottom: 25px solid transparent;
+}
+
