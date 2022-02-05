@@ -1,12 +1,11 @@
-body{
-    margin:0;
-}
-.title{
+
+.title999{
     font-size: 3rem;
     margin: 3%;
-    color: #330033
+    color: #433C78;
+    font-family: Righteous;
 }
-.container{
+.container234{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -41,7 +40,9 @@ body{
     
 }
 .launch{
-    background: #4d4dff;
+    background: #1E95F6;
+    
+font-family: Righteous;
     color: floralwhite;
     border-width: 0;
     font-size: 1.5rem;
@@ -64,11 +65,13 @@ body{
 ::placeholder{
     /* text-align: start; */
     top: 0rem;
-    color: black;
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 0.85);
 }
 .footer{
-    background: rgb(71,9,49);
-    background: linear-gradient(90deg, rgba(71,9,49,1) 0%, rgba(61,19,103,1) 66%, rgba(27,5,61,1) 100%);
+    background: linear-gradient(93.15deg, #521755 0.85%, rgba(41, 53, 118, 0.9) 100%);
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
     width: 100%;
     margin: 0;
     height: 30%;

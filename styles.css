@@ -1,11 +1,16 @@
 .wavyyy {
-  background:#66004d;
+  background:#521755;
   width: 100%;
   height: 75%;
   
 }
 body{
     margin: 0;
+}
+.homepage{
+    margin:0;
+    font-family: Righteous;
+    font-style: normal;
 }
 
 .header{
@@ -20,10 +25,14 @@ body{
     font-size: 1.5rem;
     width: 50%;
     margin: 3%;
+
+
    
 }
 .homebutton{
     color: floralwhite;
+    font-family: Righteous;
+    font-style: normal;
 }
 
 .rocket{
@@ -47,6 +56,7 @@ body{
 .introline1{
     font-size: 5rem;
     color: white;
+    font-family: Righteous;
 }
 .introline2{
     font-size: 4rem;
@@ -68,5 +78,7 @@ body{
     margin: 2%;
     border-width: 0;
     box-shadow: black;
+    font-family: righteous;
 }
+
 

@@ -1,27 +1,32 @@
-.wavyyy {
-    background: rgb(71,9,49);
-    background: linear-gradient(90deg, rgba(71,9,49,1) 0%, rgba(61,19,103,1) 66%, rgba(27,5,61,1) 100%);
+
+  .ourworkpage{
+  
     width: 100%;
-    height: 39%;
+}
+.wavyyy2 {
+    background: linear-gradient(93.15deg, #521755 0.85%, rgba(41, 53, 118, 0.9) 100%);
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 50%;
    position: relative;
   }
-  body{
-      margin: 0;
-  }
+
   
-  .header{
+  .header2{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
 
   }
 
-  .title{
+  .pagetitle{
     text-align: center;
     font-size: 4rem;
     width: 100%;
     display: flex;
     justify-content: center;
+    font-family: Righteous;
     align-items: center ;
     text-underline-offset: 20px;
     text-decoration-line: underline;
@@ -31,21 +36,23 @@
     margin-top: 2%;
     text-decoration-thickness: 3%;
   }
-  .para{
+  .para2{
       text-align: center;
       width: 100%;
-
+    
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-direction: row;
     
   }
-  .text{
+  .text2{
       margin-right: 10%;
       margin-left: 10%;
+      margin-bottom: 5%;
       color: white;
       font-size: 1.5rem;
+      font-family: Poppins;
   }
   .custom-shape-divider-bottom-1643994670 {
     position: absolute;
@@ -72,6 +79,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Poppins;
+    color: #022275;
 }
 .coll{
     display: flex;
@@ -93,11 +102,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Poppins;
+    color: #022275;
 }
 .row2{
     flex-direction: row;
     justify-content: space-around;
 }
+
 .row3{
     display: flex;
     flex-direction: row;
@@ -110,6 +122,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #022275;
 }
 .triangle-right {
 	width: 0;
