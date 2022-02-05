@@ -24,7 +24,8 @@
     margin: -2%;
     width: 200%;
     height: 20%;
-
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 0.85);
 }
 .message{
     /* align-items: stretch; */
@@ -37,7 +38,8 @@
     justify-content: start;
     text-align: start;
     margin: -2%;
-    
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 0.85);
 }
 .launch{
     background: #1E95F6;
@@ -110,6 +112,7 @@ font-family: Righteous;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Righteous;
 }
 .social{
     display: flex;
@@ -121,9 +124,11 @@ font-family: Righteous;
 }
 .mailus{
     font-size: 2.5rem;
+    font-family: Righteous;
 }
 .mail{
     font-size: 1.5rem;
+    font-family: Poppins;
 }
 .socialcontainer{
     display: flex;
